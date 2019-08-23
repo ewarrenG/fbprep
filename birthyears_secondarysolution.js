@@ -67,9 +67,7 @@ var people = [
 
 function getPeakPopulation(people) {
   let pplAliveByBirthYear = calculatePplAliveEachYear(people);
-  console.log('pplAliveByBirthYear', pplAliveByBirthYear);
   let maxObj = getMaxValFromObj(pplAliveByBirthYear);
-  // console.log('maxObj', maxObj);
   console.log('maxYear', maxObj.year);
 }
 
